@@ -1,0 +1,66 @@
+create table produtos (
+    id_produto INT PRIMARY key AUTO_INCREMENT,
+    nome_produto VARCHAR(200) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL
+    
+);
+
+select * from produtos;
+
+
+insert into produtos (nome_produto, preco)
+VALUES
+('Teclado Mecânico', 189.90),
+('Mouse Gamer', 129.90),
+('Monitor 24 Polegadas', 899.90),
+('Headset Gamer', 249.90),
+('Notebook i5', 3599.90),
+('Mousepad Grande', 59.90),
+('Webcam Full HD', 199.90),
+('Caixa de Som Bluetooth', 179.90),
+('Pen Drive 64GB', 49.90),
+('HD Externo 1TB', 389.90),
+
+('SSD 480GB', 329.90),
+('SSD NVMe 1TB', 699.90),
+('Memória RAM 8GB', 219.90),
+('Memória RAM 16GB', 399.90),
+('Placa de Vídeo GTX', 1899.90),
+('Fonte 600W', 349.90),
+('Gabinete Gamer', 499.90),
+('Cooler CPU', 149.90),
+('Processador i5', 1299.90),
+('Processador i7', 2199.90),
+
+('Impressora Multifuncional', 649.90),
+('Scanner Portátil', 479.90),
+('Roteador Wi-Fi', 229.90),
+('Switch de Rede', 189.90),
+('Cabo HDMI', 39.90),
+('Cabo de Rede', 19.90),
+('Estabilizador', 289.90),
+('Nobreak', 699.90),
+('Projetor Full HD', 2499.90),
+('Suporte para Monitor', 159.90),
+
+('Cadeira Gamer', 999.90),
+('Mesa para Escritório', 849.90),
+('Notebook i7', 4899.90),
+('Tablet 10 Polegadas', 1199.90),
+('Smartphone Android', 1999.90),
+('Smartwatch', 899.90),
+('Fone de Ouvido Bluetooth', 299.90),
+('Microfone USB', 349.90),
+('Controle para PC', 199.90),
+('Placa-Mãe ATX', 1099.90),
+
+('Placa-Mãe Micro ATX', 799.90),
+('Adaptador USB Wi-Fi', 89.90),
+('Leitor de Cartão', 69.90),
+('Carregador Universal', 119.90),
+('Hub USB', 79.90),
+('Filtro de Linha', 59.90),
+('Câmera de Segurança', 399.90),
+('Roteador Mesh', 1299.90),
+('Echo Smart Speaker', 449.90),
+('TV 50 Polegadas', 2799.90);

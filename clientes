@@ -1,0 +1,76 @@
+create table clientes (
+    id_cliente INT PRIMARY key AUTO_INCREMENT,
+    nome varchar(200) not null,
+    idade INT not null,
+    email VARCHAR(200) NOT NULL,
+    cidade VARCHAR(100) NOT NULL,
+    telefone varchar(20) NOT NULL
+
+
+
+
+
+);
+
+
+select * from clientes;
+
+
+
+insert into clientes (nome ,idade, email, cidade, telefone)
+VALUES
+('João Silva', 28, 'joao.silva@email.com', 'São Paulo', '11990000001'),
+('Maria Souza', 34, 'maria.souza@email.com', 'Campinas', '11990000002'),
+('Carlos Lima', 22, 'carlos.lima@email.com', 'Santos', '11990000003'),
+('Ana Pereira', 29, 'ana.pereira@email.com', 'Sorocaba', '11990000004'),
+('Lucas Rocha', 41, 'lucas.rocha@email.com', 'Jundiaí', '11990000005'),
+('Fernanda Alves', 26, 'fernanda.alves@email.com', 'São Paulo', '11990000006'),
+('Rafael Costa', 35, 'rafael.costa@email.com', 'Campinas', '11990000007'),
+('Juliana Mendes', 31, 'juliana.mendes@email.com', 'Piracicaba', '11990000008'),
+('Bruno Martins', 24, 'bruno.martins@email.com', 'Limeira', '11990000009'),
+('Patrícia Nogueira', 38, 'patricia.nogueira@email.com', 'Americana', '11990000010'),
+
+('Diego Ribeiro', 27, 'diego.ribeiro@email.com', 'Hortolândia', '11990000011'),
+('Aline Freitas', 33, 'aline.freitas@email.com', 'Indaiatuba', '11990000012'),
+('Felipe Barros', 21, 'felipe.barros@email.com', 'Valinhos', '11990000013'),
+('Camila Teixeira', 30, 'camila.teixeira@email.com', 'Vinhedo', '11990000014'),
+('Rodrigo Pacheco', 45, 'rodrigo.pacheco@email.com', 'Campinas', '11990000015'),
+('Beatriz Farias', 19, 'beatriz.farias@email.com', 'Paulínia', '11990000016'),
+('André Cunha', 36, 'andre.cunha@email.com', 'Sumaré', '11990000017'),
+('Larissa Lopes', 25, 'larissa.lopes@email.com', 'Itu', '11990000018'),
+('Eduardo Gomes', 40, 'eduardo.gomes@email.com', 'Salto', '11990000019'),
+('Renata Azevedo', 32, 'renata.azevedo@email.com', 'Campinas', '11990000020'),
+
+('Thiago Moreira', 29, 'thiago.moreira@email.com', 'São Paulo', '11990000021'),
+('Vanessa Batista', 37, 'vanessa.batista@email.com', 'Osasco', '11990000022'),
+('Marcelo Pinto', 44, 'marcelo.pinto@email.com', 'Barueri', '11990000023'),
+('Paula Rangel', 27, 'paula.rangel@email.com', 'Carapicuíba', '11990000024'),
+('Gustavo Torres', 23, 'gustavo.torres@email.com', 'Cotia', '11990000025'),
+('Simone Duarte', 39, 'simone.duarte@email.com', 'Taboão da Serra', '11990000026'),
+('Leonardo Macedo', 34, 'leonardo.macedo@email.com', 'Guarulhos', '11990000027'),
+('Natalia Pires', 28, 'natalia.pires@email.com', 'Mogi das Cruzes', '11990000028'),
+('Henrique Lopes', 42, 'henrique.lopes@email.com', 'Suzano', '11990000029'),
+('Daniela Prado', 31, 'daniela.prado@email.com', 'Diadema', '11990000030'),
+
+('Igor Santana', 26, 'igor.santana@email.com', 'Santo André', '11990000031'),
+('Priscila Ramos', 35, 'priscila.ramos@email.com', 'São Bernardo do Campo', '11990000032'),
+('Alexandre Vieira', 48, 'alexandre.vieira@email.com', 'São Caetano do Sul', '11990000033'),
+('Tatiane Moura', 22, 'tatiane.moura@email.com', 'Ribeirão Preto', '11990000034'),
+('Victor Neves', 29, 'victor.neves@email.com', 'Araraquara', '11990000035'),
+('Michele Antunes', 41, 'michele.antunes@email.com', 'Franca', '11990000036'),
+('Caio Fonseca', 24, 'caio.fonseca@email.com', 'Bauru', '11990000037'),
+('Silvia Bernardes', 46, 'silvia.bernardes@email.com', 'Marília', '11990000038'),
+('Otávio Guedes', 33, 'otavio.guedes@email.com', 'Jaú', '11990000039'),
+('Elaine Corrêa', 38, 'elaine.correa@email.com', 'Botucatu', '11990000040'),
+
+('Robson Tavares', 27, 'robson.tavares@email.com', 'São Carlos', '11990000041'),
+('Cristiane Melo', 36, 'cristiane.melo@email.com', 'Rio Claro', '11990000042'),
+('Fábio Queiroz', 49, 'fabio.queiroz@email.com', 'Leme', '11990000043'),
+('Monique Reis', 21, 'monique.reis@email.com', 'Mogi Mirim', '11990000044'),
+('Wesley Araujo', 34, 'wesley.araujo@email.com', 'Atibaia', '11990000045'),
+('Débora Peixoto', 28, 'debora.peixoto@email.com', 'Bragança Paulista', '11990000046'),
+('Renan Albuquerque', 40, 'renan.albuquerque@email.com', 'Itatiba', '11990000047'),
+('Jéssica Moura', 23, 'jessica.moura@email.com', 'Várzea Paulista', '11990000048'),
+('Maurício Dantas', 52, 'mauricio.dantas@email.com', 'Louveira', '11990000049'),
+('Carolina Esteves', 31, 'carolina.esteves@email.com', 'Campinas', '11990000050');
+ 
